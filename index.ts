@@ -1,11 +1,14 @@
-import { InstallArgs } from './api';
+import { InstallArgs, Version, VersionIOS, IVersionManager } from './api';
 
 const VersionManager = require('./VersionManager').VersionManager;
 
 export {
   VersionManager,
-  InstallArgs
-}
+  InstallArgs,
+  Version,
+  VersionIOS,
+  IVersionManager
+};
 
 export default VersionManager;
 

@@ -15,10 +15,10 @@
     "clear": "rm -rf *.d.ts *.js *.js.map **/*.d.ts **/*.js **/*.js.map **/*/build"
   },
   "devDependencies": {
-    "@types/react": "^16.9.3",
-    "@types/react-native": "^0.60.16",
-    "react": "^16.9.0",
-    "react-native": "^0.61.1",
-    "typescript": "^3.6.3"
+    "@types/react": "^17.0.39",
+    "@types/react-native": "^0.66.16",
+    "react": "^17.0.2",
+    "react-native": "^0.67.3",
+    "typescript": "^4.5.5"
   }
 }
