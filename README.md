@@ -11,7 +11,7 @@ import { VersionManager } from '@aomi/react-native-components-version-manager';
 import { Version } from './api';
 
 async function getVersion() {
-  const version: Version = VersionManager.get();
+  const version: Version = new VersionManager().get();
   console.log(version)
 }
 ```
